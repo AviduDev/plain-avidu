@@ -1,0 +1,168 @@
+.description {
+    max-width: 80%;
+    align-self: flex-end;
+    text-align: justify;
+}
+
+
+/* ------------------related services----------------------- */
+
+
+.relatedServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.3rem 0 0.3rem;
+    width: 100%;
+}
+
+.serviceItem {
+    background-color: black;
+    color: #f6ffc1;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.serviceTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ServiceIcon {
+    font-size: 2rem;
+}
+
+
+/* --------------------------related tools------------------------- */
+
+
+.relatedTools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.3rem 0 0.3rem;
+    width: 100%;
+}
+
+.toolItem {
+    background-color: black;
+    color: #f6ffc1;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.toolTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toolIcon {
+    font-size: 2rem;
+}
+
+
+/* ---------------------------------related projects---------------------------- */
+
+.horizonatal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: black;
+    color: #f6ffc1;
+    padding: 0.3rem;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  hr {
+    border: solid 1px grey;
+  }
+  
+  .project {
+    margin-top: 1rem;
+  }
+
+
+  /* ----------------------------------service details------------------------------------- */
+
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
+.contactContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    font-size: 1.8rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.faqContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.3rem 0 0.3rem;
+}
+
+.faqItem {
+    background-color: black;
+    color: #f6ffc1;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

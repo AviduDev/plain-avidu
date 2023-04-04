@@ -1,12 +1,222 @@
 .hero-top h2 {
-    font-size: 14vw;
-    text-align: center;
+  margin-top: 20vh;
+  font-size: 6rem;
+  text-align: center;
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-bottom {
+  display: flex;
+  font-size: 5vw;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero-bottom-right {
+  text-align: end;
+}
+
+.hero-bottom-left {
+  text-align: start;
+}
+
+/* ------------------------description------------------------- */
+.description {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  text-align: center;
+  background-color: black;
+  margin: 1rem 0 0 0;
+  padding: 1rem 0 1rem 0;
+  color: #f6ffc1;
+  text-align: start;
+  border-radius: 3rem 3rem 0 0;
+}
+
+.description h2 {
+  font-size: 3.6rem;
+}
+
+/* ------------------------Marquee------------------------- */
+.marqueeSec {
+  margin: 1rem 0 0 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.marqueeTitle {
+  color: #f6ffc1;
+}
+
+.marquee {
+  max-width: 100vw;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes marque-animation {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.marquee h2 {
+  display: inline-block;
+  animation: marque-animation 30s linear infinite;
+}
+/* ------------------------selected project------------------------- */
+
+.horizonatal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  display: inline-block;
+  background-color: black;
+  color: #f6ffc1;
+  padding: 0.3rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+hr {
+  border: solid 1px grey;
+}
+
+.project {
+  margin-top: 1rem;
+}
+/* ------------------------service------------------------- */
+
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60vh;
+  background-color: black;
+  color: #f6ffc1;
+  width: 90vw;
+  margin: 1rem 0 0 0;
+  padding: 1rem 0 1rem 0;
+}
+
+.text,
+.icon {
+  font-size: 2.5rem;
+}
+
+/* ------------------------process------------------------- */
+
+.process {
     display: flex;
     flex-direction: column;
-  
+    min-width: 90%;
+    border: solid black 1px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    min-height: 30vh;
     justify-content: space-between;
+}
+
+.top, .bottom {
+    font-size: 2.5rem;
+}
+
+.bottom {
+    background-color: black;
+    color: #f6ffc1;
+    width: 100%;
+    text-align: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* ------------------------contact------------------------- */
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 1px;
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
+.contactContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
+
+.email {
+    font-size: 1.8rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.faqContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.3rem 0 0.3rem;
+}
+
+.faqItem {
+    background-color: black;
+    color: #f6ffc1;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+}
+/* ------------------------description------------------------- */
+/* ------------------------description------------------------- */
+/* ------------------------description------------------------- */
+/* ------------------------description------------------------- */
+/* ------------------------description------------------------- */

@@ -1,0 +1,18 @@
+.aboutDesc {
+    width: 80%;
+    align-self: flex-end;
+    text-align: justify;
+}
+
+.bioItem {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0 0.5rem 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bioDetail {
+    text-align: end;
+}
